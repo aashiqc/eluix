@@ -1,0 +1,53 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.imgcontainer {
+    flex: 1;
+    height: 500px;
+}
+
+.heading {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+.input, .textarea {
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+}
+
+.image {
+    object-fit: contain;
+    /* animation: move 3s infinite ease alternate; */
+}
+
+@keyframes move {
+    from {
+        transform: translateY (-15px)
+    }
+    to {
+        transform: translate(0px) scale(1.03);
+    }
+}

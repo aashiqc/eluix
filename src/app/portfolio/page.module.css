@@ -1,0 +1,46 @@
+.titlecontainer {
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #bbb;
+    border-radius: 20px;
+    position: relative;
+    background-size: cover;
+    
+}
+
+.item:nth-child(1) {
+    background: url("/website.png");
+}
+.item:nth-child(2) {
+    background: url("/software.png");
+}
+.item:nth-child(3) {
+    background: url("/apps-01.png");
+}
+
+.title {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.itemtitle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
